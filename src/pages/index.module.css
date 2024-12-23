@@ -1,23 +1,145 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
+/* Hero Banner Section */
 .heroBanner {
-  padding: 4rem 0;
+  padding: 5rem 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(to right, #6495ed, #3b82f6); /* Added gradient background */
+  color: white;
+  border-radius: 12px;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 3rem 1.5rem;
   }
 }
 
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2); /* Slight text shadow for depth */
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+/* Buttons Section */
 .buttons {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 2rem;
+  animation: fadeIn 1s ease-out; /* Added fade-in animation */
 }
+
+.button {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: #6495ed;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for better depth */
+}
+
+.button:hover {
+  background-color: #4169e1;
+  color: #fff;
+  transform: translateY(-5px); /* Smooth hover effect */
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #fff;
+  transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
+  border-radius: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover::before {
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+}
+
+/* Animation for Fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Feature Section */
+.features {
+  background: #f8fafc; /* Light background for features */
+  padding: 4rem 0;
+}
+
+.featureSvg {
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.featureSvg:hover {
+  transform: scale(1.1); /* Slight scaling effect on hover */
+}
+
+.text--center {
+  text-align: center;
+}
+
+/* Typography Adjustments */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+

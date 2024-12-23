@@ -1,11 +1,61 @@
+/* Feature Section Styling */
 .features {
+  background-color: #f5f5f5;
+  padding: 4rem 0;
+}
+
+.feature {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1.5rem;
+  transition: fill 0.3s ease;
 }
+
+.feature:hover .featureSvg {
+  fill: #6495ed;
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.featureDescription {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Responsive grid for feature cards */
+@media (max-width: 768px) {
+  .features {
+    padding: 2rem 0;
+  }
+
+  .feature {
+    margin-bottom: 2rem;
+  }
+}
+
