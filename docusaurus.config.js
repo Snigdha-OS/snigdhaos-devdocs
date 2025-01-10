@@ -54,6 +54,7 @@ const config = {
       'ks', // Kashmiri
       'sa', // Sanskrit
       'bo', // Tibetan
+      'uk', // Ukrainian
     ],
     localeConfigs: {
       en: { label: 'English' },
@@ -75,6 +76,7 @@ const config = {
       ks: { label: 'کشمیر' },
       sa: { label: 'संस्कृत' },
       bo: { label: 'བོད་ཡིག' },
+      uk: { label: 'Українська' },
     },
   },
 
@@ -107,7 +109,7 @@ const config = {
       navbar: {
         title: 'SNIGDHA OS | DEVELOPER DOCS',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Snigdha OS Dev Docs Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -116,7 +118,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/Snigdha-OS',
+            href: 'https://github.com/Snigdha-OS',
             label: 'GitHub',
             position: 'right',
           },
