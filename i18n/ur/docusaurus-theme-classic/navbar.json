@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "SNIGDHA OS | DEVELOPER DOCS",
+    "message": "SNIGDHA OS | ڈویلپر ڈاکس",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "My Site Logo",
+    "message": "میرا سائٹ لوگو",
     "description": "The alt text of navbar logo"
   },
   "item.label.GitHub": {
-    "message": "GitHub",
+    "message": "گٹ ہب",
     "description": "Navbar item with label GitHub"
   }
 }
