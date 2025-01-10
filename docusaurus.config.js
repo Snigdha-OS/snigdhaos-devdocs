@@ -34,7 +34,48 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: [
+      'en', // English
+      'hi', // Hindi
+      'bn', // Bengali
+      'te', // Telugu
+      'mr', // Marathi
+      'ta', // Tamil
+      'ur', // Urdu
+      'gu', // Gujarati
+      'kn', // Kannada
+      'ml', // Malayalam
+      'or', // Odia
+      'pa', // Punjabi
+      'as', // Assamese
+      'ne', // Nepali
+      'si', // Sinhala
+      'hy', // Hindi
+      'ks', // Kashmiri
+      'sa', // Sanskrit
+      'bo', // Tibetan
+    ],
+    localeConfigs: {
+      en: { label: 'English' },
+      hi: { label: 'हिन्दी' },
+      bn: { label: 'বাংলা' },
+      te: { label: 'తెలుగు' },
+      mr: { label: 'मराठी' },
+      ta: { label: 'தமிழ்' },
+      ur: { label: 'اردو' },
+      gu: { label: 'ગુજરાતી' },
+      kn: { label: 'ಕನ್ನಡ' },
+      ml: { label: 'മലയാളം' },
+      or: { label: 'ଓଡ଼ିଆ' },
+      pa: { label: 'ਪੰਜਾਬੀ' },
+      as: { label: 'অসমীয়া' },
+      ne: { label: 'नेपाली' },
+      si: { label: 'සිංහල' },
+      hy: { label: 'հայերեն' },
+      ks: { label: 'کشمیر' },
+      sa: { label: 'संस्कृत' },
+      bo: { label: 'བོད་ཡིག' },
+    },
   },
 
   presets: [
