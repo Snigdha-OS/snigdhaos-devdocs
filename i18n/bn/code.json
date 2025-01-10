@@ -1,22 +1,22 @@
 {
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "এই পৃষ্ঠাটি ক্র্যাশ করেছে।",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "শীর্ষে ফিরে যান",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "আর্কাইভ",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "আর্কাইভ",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "ব্লগ তালিকা পেজ নেভিগেশন",
+    "message": "ব্লগ তালিকা পৃষ্ঠার নেভিগেশন",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
@@ -28,7 +28,7 @@
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "ব্লগ পোস্ট পেজ নেভিগেশন",
+    "message": "ব্লগ পোস্ট পৃষ্ঠার নেভিগেশন",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
@@ -40,31 +40,31 @@
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "সমস্ত ট্যাগ্স দেখুন",
+    "message": "সব ট্যাগ দেখুন",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "ডার্ক এবং লাইট মোডের মধ্যে সুইচ করুন (বর্তমানে {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "ডার্ক মোড",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "লাইট মোড",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "ব্রেডক্রাম্ব",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
+    "message": "১টি আইটেম|{count} টি আইটেম",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "ডক্স পেজ",
+    "message": "ডক্স পৃষ্ঠার নেভিগেশন",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -76,42 +76,42 @@
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
+    "message": "১টি ডক ট্যাগড|{count} টি ডক ট্যাগড",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
+    "message": "{nDocsTagged} এর জন্য ট্যাগ \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "ভার্সন: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "এটি {siteTitle} {versionLabel} এর জন্যে অপ্রকাশিত ডকুমেন্টেশন।",
+    "message": "এটি {siteTitle} {versionLabel} এর জন্য অপ্রকাশিত ডকুমেন্টেশন।",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "এটি {siteTitle} {versionLabel} এর জন্যে ডকুমেন্টেশন, যা আর সক্রিয়ভাবে রক্ষণাবেক্ষণ করা হয় না।",
+    "message": "এটি {siteTitle} {versionLabel} এর জন্য ডকুমেন্টেশন, যা আর রক্ষণাবেক্ষণ করা হয় না।",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "আপ-টু-ডেট ডকুমেন্টেশনের জন্য, {latestVersionLink} ({versionLabel}) দেখুন।",
+    "message": "সর্বশেষ ডকুমেন্টেশনের জন্য, {latestVersionLink} ({versionLabel}) দেখুন।",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "লেটেস্ট ভার্সন",
+    "message": "সর্বশেষ ভার্সন",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "এই পেজটি এডিট করুন",
+    "message": "এই পৃষ্ঠাটি সম্পাদনা করুন",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "{heading} এর সঙ্গে সরাসরি লিংকড",
+    "message": "{heading} এর সাথে সরাসরি লিঙ্কড",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " {date} তারিখে",
+    "message": "{date} তারিখে",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
@@ -119,15 +119,15 @@
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "সর্বশেষ সংষ্করণ{atDate}{byUser}",
+    "message": "শেষ আপডেট {atDate} {byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "ভার্সনসমূহ",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
-    "message": "পেজটি খুঁজে পাওয়া যায়নি",
+    "message": "পৃষ্ঠাটি খুঁজে পাওয়া যায়নি",
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
