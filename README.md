@@ -1,7 +1,7 @@
 # Snigdha OS Developer Documentation
 
 [![License](https://img.shields.io/github/license/Snigdha-OS/snigdhaos-devdocs)](LICENSE)  
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Snigdha-OS/snigdhaos-devdocs/deploy.yml?branch=main)](https://github.com/Snigdha-OS/snigdhaos-devdocs/actions)  
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Snigdha-OS/documentation/deploy.yml?branch=master)](https://github.com/Snigdha-OS/snigdhaos-devdocs/actions)  
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fsnigdha-os.github.io%2Fsnigdhaos-devdocs%2F)](https://snigdha-os.github.io/snigdhaos-devdocs/)
 
 Welcome to the **Snigdha OS Developer Documentation** repository! This repository houses the official developer documentation for **Snigdha OS**, a highly customizable, Arch-based Linux distribution designed for developers, penetration testers, and general users.
