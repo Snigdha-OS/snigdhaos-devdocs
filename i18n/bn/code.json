@@ -275,31 +275,31 @@
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "সব লেখক দেখুন",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "এই লেখক এখনো কোন পোস্ট লেখেননি।",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "অলিস্টেড পেজ",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "এই পেজটি অলিস্টেড। সার্চ ইঞ্জিন এটিকে ইনডেক্স করবে না, এবং শুধুমাত্র সরাসরি লিঙ্ক থাকা ব্যবহারকারীরা এটিতে প্রবেশ করতে পারবেন।",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "ড্রাফট পেজ",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "এই পেজটি একটি ড্রাফট। এটি শুধুমাত্র ডেভেলপমেন্ট মোডে দৃশ্যমান হবে এবং প্রোডাকশন বিল্ড থেকে বাদ দেওয়া হবে।",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "আবার চেষ্টা করুন",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
