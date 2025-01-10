@@ -112,6 +112,10 @@ const config = {
         },
         items: [
           {
+            type: 'localeDropdown', // Language switcher dropdown
+            position: 'right',
+          },
+          {
             href: 'https://github.com/facebook/Snigdha-OS',
             label: 'GitHub',
             position: 'right',
