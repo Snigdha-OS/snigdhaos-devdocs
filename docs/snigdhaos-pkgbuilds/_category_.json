@@ -1,0 +1,9 @@
+{
+    "label": "PKGBUILDS",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "A comprehensive guide to the PKGBUILD scripts used in Snigdha OS. Learn how to create, modify, and maintain PKGBUILDs for building and distributing packages, along with best practices for package management within the Snigdha OS ecosystem."
+    }
+  }
+  
