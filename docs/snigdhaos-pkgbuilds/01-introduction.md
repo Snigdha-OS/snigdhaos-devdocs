@@ -139,7 +139,6 @@ Here are some useful tips when working with PKGBUILDs:
    A helpful cheat sheet for PKGBUILDs that includes examples of various PKGBUILD fields and usage.
 
 
-
 ### **Conclusion**
 
 PKGBUILDs are an essential part of working with Snigdha OS and other Arch-based systems. They provide a powerful way to automate the process of building, customizing, and installing software from source code. By understanding how PKGBUILDs work, you can take full control over your software installations, making them more tailored to your specific needs. Additionally, PKGBUILDs ensure consistency, reproducibility, and security in the software build process, making them an indispensable tool for developers and advanced users. Whether you’re writing your own PKGBUILD or modifying an existing one, mastering this tool is key to fully utilizing the power of Snigdha OS and Arch-based systems.
