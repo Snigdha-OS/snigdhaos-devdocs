@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 ---
+
 # Lynxfetch - Snigdha OS
 
 **snigdhaos-lynxfetch** is a package found in the SnigdhaOS PKGBUILD repository. It is a simple and lightweight terminal-based utility designed to fetch and display system information in a visually appealing format. The name **Lynxfetch** suggests that it might have been inspired by the popular system information tool `neofetch`, but with a focus on a minimalist approach, making it a good fit for SnigdhaOS, which values efficiency and simplicity.
